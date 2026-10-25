@@ -1,0 +1,20 @@
+{
+  "name": "edecor-backend",
+  "version": "1.0.0",
+  "description": "Auth + usage-analytics backend for the eDecor prototype",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test-auth-flow.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "jsdom": "^30.0.1"
+  }
+}
