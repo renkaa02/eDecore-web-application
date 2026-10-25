@@ -1,0 +1,210 @@
+{
+  "users": [
+    {
+      "id": "52cdb3fd-d0ac-4465-8d85-aaf18e5381ea",
+      "name": "pooja",
+      "email": "poojasingh2@gmail.com",
+      "passwordHash": "$2a$10$Heagw.ydJzuvrCRGN//Sx.u5wNJgkwEEedDMxjksZ/45IuuRD6ip2",
+      "createdAt": "2026-08-30T10:58:12.051Z"
+    },
+    {
+      "id": "21de1d54-361f-4ef3-a3ac-a818e1fece65",
+      "name": "Shreya",
+      "email": "shreyap@gmail.com",
+      "passwordHash": "$2a$10$cg1njkI9AE6DhHIRd9MMs.Y7nNbks3qFvEVsU33eVAB6p0.6jGH42",
+      "createdAt": "2026-08-30T16:48:13.829Z"
+    },
+    {
+      "id": "a5eb16d6-ebd3-400d-8427-b1afef09fc67",
+      "name": "jay",
+      "email": "jay3@gmail.com",
+      "passwordHash": "$2a$10$ULaktPYR67byAiipCYpMDuso8NYGBexHZv3NJZ1XlKDhNXUwRhkc.",
+      "createdAt": "2026-08-31T04:46:57.970Z"
+    }
+  ],
+  "logins": [
+    {
+      "userId": "52cdb3fd-d0ac-4465-8d85-aaf18e5381ea",
+      "email": "poojasingh2@gmail.com",
+      "at": "2026-08-30T10:58:12.051Z",
+      "ip": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0",
+      "type": "signup"
+    },
+    {
+      "userId": "21de1d54-361f-4ef3-a3ac-a818e1fece65",
+      "email": "shreyap@gmail.com",
+      "at": "2026-08-30T16:48:13.829Z",
+      "ip": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "type": "signup"
+    },
+    {
+      "userId": "21de1d54-361f-4ef3-a3ac-a818e1fece65",
+      "email": "shreyap@gmail.com",
+      "at": "2026-08-30T16:49:02.649Z",
+      "ip": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "type": "login"
+    },
+    {
+      "userId": "a5eb16d6-ebd3-400d-8427-b1afef09fc67",
+      "email": "jay3@gmail.com",
+      "at": "2026-08-31T04:46:57.970Z",
+      "ip": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "type": "signup"
+    },
+    {
+      "userId": "a5eb16d6-ebd3-400d-8427-b1afef09fc67",
+      "email": "jay3@gmail.com",
+      "at": "2026-08-31T05:07:53.395Z",
+      "ip": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+      "type": "login"
+    }
+  ],
+  "events": [
+    {
+      "userId": "52cdb3fd-d0ac-4465-8d85-aaf18e5381ea",
+      "email": "poojasingh2@gmail.com",
+      "event": "select_style",
+      "meta": {
+        "style": "pure-indian"
+      },
+      "at": "2026-08-30T10:58:18.577Z"
+    },
+    {
+      "userId": "52cdb3fd-d0ac-4465-8d85-aaf18e5381ea",
+      "email": "poojasingh2@gmail.com",
+      "event": "select_palette",
+      "meta": {
+        "palette": "Sage & Stone"
+      },
+      "at": "2026-08-30T10:58:25.523Z"
+    },
+    {
+      "userId": "52cdb3fd-d0ac-4465-8d85-aaf18e5381ea",
+      "email": "poojasingh2@gmail.com",
+      "event": "generate_layout",
+      "meta": {
+        "room": "washroom",
+        "palette": "Sage & Stone",
+        "length": "14",
+        "width": "11"
+      },
+      "at": "2026-08-30T10:58:34.938Z"
+    },
+    {
+      "userId": "21de1d54-361f-4ef3-a3ac-a818e1fece65",
+      "email": "shreyap@gmail.com",
+      "event": "generate_layout",
+      "meta": {
+        "room": "living",
+        "palette": "Warm Neutral",
+        "length": "14",
+        "width": "11"
+      },
+      "at": "2026-08-30T16:48:21.095Z"
+    },
+    {
+      "userId": "21de1d54-361f-4ef3-a3ac-a818e1fece65",
+      "email": "shreyap@gmail.com",
+      "event": "generate_layout",
+      "meta": {
+        "room": "living",
+        "palette": "Warm Neutral",
+        "length": "14",
+        "width": "11"
+      },
+      "at": "2026-08-30T16:48:30.569Z"
+    },
+    {
+      "userId": "a5eb16d6-ebd3-400d-8427-b1afef09fc67",
+      "email": "jay3@gmail.com",
+      "event": "select_style",
+      "meta": {
+        "style": "pure-indian"
+      },
+      "at": "2026-08-31T04:47:05.181Z"
+    },
+    {
+      "userId": "a5eb16d6-ebd3-400d-8427-b1afef09fc67",
+      "email": "jay3@gmail.com",
+      "event": "select_room_type",
+      "meta": {
+        "room": "washroom"
+      },
+      "at": "2026-08-31T04:47:08.053Z"
+    },
+    {
+      "userId": "a5eb16d6-ebd3-400d-8427-b1afef09fc67",
+      "email": "jay3@gmail.com",
+      "event": "select_room_type",
+      "meta": {
+        "room": "yard"
+      },
+      "at": "2026-08-31T04:47:11.219Z"
+    },
+    {
+      "userId": "a5eb16d6-ebd3-400d-8427-b1afef09fc67",
+      "email": "jay3@gmail.com",
+      "event": "select_palette",
+      "meta": {
+        "palette": "Sage & Stone"
+      },
+      "at": "2026-08-31T04:47:56.877Z"
+    },
+    {
+      "userId": "a5eb16d6-ebd3-400d-8427-b1afef09fc67",
+      "email": "jay3@gmail.com",
+      "event": "generate_layout",
+      "meta": {
+        "room": "yard",
+        "palette": "Sage & Stone",
+        "length": "7",
+        "width": "7"
+      },
+      "at": "2026-08-31T04:48:12.369Z"
+    },
+    {
+      "userId": "a5eb16d6-ebd3-400d-8427-b1afef09fc67",
+      "email": "jay3@gmail.com",
+      "event": "generate_layout",
+      "meta": {
+        "room": "yard",
+        "palette": "Sage & Stone",
+        "length": "11.4",
+        "width": "15.2"
+      },
+      "at": "2026-08-31T04:52:01.598Z"
+    },
+    {
+      "userId": "a5eb16d6-ebd3-400d-8427-b1afef09fc67",
+      "email": "jay3@gmail.com",
+      "event": "select_style",
+      "meta": {
+        "style": "classic"
+      },
+      "at": "2026-08-31T05:08:19.809Z"
+    },
+    {
+      "userId": "a5eb16d6-ebd3-400d-8427-b1afef09fc67",
+      "email": "jay3@gmail.com",
+      "event": "select_style",
+      "meta": {
+        "style": "pure-indian"
+      },
+      "at": "2026-08-31T05:08:24.769Z"
+    },
+    {
+      "userId": "a5eb16d6-ebd3-400d-8427-b1afef09fc67",
+      "email": "jay3@gmail.com",
+      "event": "select_palette",
+      "meta": {
+        "palette": "Sage & Stone"
+      },
+      "at": "2026-08-31T05:09:00.948Z"
+    }
+  ]
+}
